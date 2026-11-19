@@ -40,6 +40,11 @@
       "bytes": 1368
     },
     {
+      "path": "assets/header.png",
+      "sha256": "3eeb8a5b21385f96ac645b1457f5e017819f0c89057ecf50d22c669376beb6cf",
+      "bytes": 27675
+    },
+    {
       "path": "CLAUDE-UPLOAD.txt",
       "sha256": "63d8d54183cba467b383f2144dfa87f5a1abd144b5b21fd8769dab56443bea7c",
       "bytes": 2405
@@ -86,8 +91,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "0f3f31e9bbee743dcfe6ecb95f4e14c560f53c42a233b015497268624438dd0b",
-      "bytes": 5970
+      "sha256": "e02ca523464177699e5b07d4d95749e599e4a62843f9a4d5e468875d79bcd63f",
+      "bytes": 6170
     },
     {
       "path": "RELEASE-CHECKLIST.md",

@@ -1,3 +1,5 @@
+![Oracle7 Hybrid Game Engine — Developer Preview: WanderAround and the District in pixel art](assets/header.png)
+
 # Oracle7 Hybrid Game Engine — Developer Preview
 
 **Release v0.1.0** (Developer Preview). A reusable MIT-licensed extraction of WanderAround's composable world foundations, with validated world editing and an AI-provider integration boundary.
@@ -82,6 +84,9 @@ This address identifies the Oracle7 project. It is not needed to use the engine,
 is not an offer of, or a promise of, any financial return.
 
 ## License and release
+
+The header is pixel art made from real captures of WanderAround and the District.
+
 
 Original distributable source is MIT licensed. Dependencies retain their own licenses; see THIRD-PARTY-NOTICES.txt. Model weights, private game/player data, deployment credentials, website corpus and branded/meme assets are excluded. `private: true` prevents accidental npm publication; it does not prevent GitHub upload.
 
