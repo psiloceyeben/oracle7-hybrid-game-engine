@@ -1,0 +1,39 @@
+CLAUDE HANDOFF — Oracle7 Hybrid Game Engine Dev Preview
+
+Prepare the GitHub repository from THIS package only, named
+oracle7-hybrid-game-engine, display title Oracle7 Hybrid Game Engine Dev Preview.
+Do not upload the enclosing workspace, private-baseline, work, caches, archives,
+player data, model weights, credentials or production deployment files.
+
+Read README.md, MCP-INTEGRATION.md, ACCEPTANCE.txt and RELEASE-MANIFEST.json.
+Verify the manifest hashes. Install with npm ci (add --no-bin-links on exFAT),
+then npm run check, npm test and npm run build. The acceptance baseline is 53
+passing tests. Launch npm run dev and verify preview/confirm/undo/export.
+
+Integrate the native feature into Oracle7 12.0.3 through the MCP implementation
+you are already preparing. Use createWorldTools and LanguageProvider rather
+than creating a second world mutation path. Keep the included SpecialistRequests
+transport available for existing WanderAround specialist routes. Reuse existing
+world-action planners to translate their action briefs into supported recipes.
+Do not mistake resident dialogue for an authorized building action.
+
+Bind authenticated principals and permissions on the host. Configure a private
+NodeFileWorldStore for local development or a truly atomic database WorldStore
+for a distributed host. Keep model credentials out of browser code. Natural
+language must produce a preview, not automatically commit edits. Preserve
+revision checks, idempotency and unsupported-request failures.
+
+Run the real Oracle acceptance sequence in MCP-INTEGRATION.md, record runtime
+version/results and fix any integration faults. Do not claim live AI integration
+passed merely because the provider-double tests passed.
+
+Retain MIT and dependency notices. private:true in package.json intentionally
+prevents accidental npm publishing; GitHub upload is still allowed. Review
+repository visibility/account with Ben if not already established, initialize
+Git in a fresh extraction, commit the public files and upload. Do not overwrite
+another repository or alter the live WanderAround game during this work.
+
+Release as a Dev Preview with its documented constraints, not a complete
+general-purpose production engine. Provide Ben the GitHub URL, commit SHA,
+setup steps and real Oracle integration results. No cryptocurrency payments,
+investment promises or universal zero-lag claims belong in the announcement.

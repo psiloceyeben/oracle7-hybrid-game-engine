@@ -1,0 +1,25 @@
+Oracle7 Hybrid Game Engine Dev Preview 0.1.0-dev.1
+Verified November 18, 2026 (Pacific).
+
+Strict TypeScript compilation: PASS.
+Automated tests: 53 passed across 6 suites.
+Includes real Rapier physics, stairs, clock, recipe identity, validation,
+authority, revisions, idempotent retry, undo conflicts, persistence failure,
+file-store reopen, corrupt file rejection, AI proposal boundary, timeouts,
+existing specialist correlation/cancellation and nested collider transforms.
+
+Browser: real rendered pavilion; preview is not committed; confirm revision 1;
+undo; rebuild/confirm revision 3; world JSON download completed.
+Downloaded JSON: oracle7.world.v1, local-world, revision 3.
+Browser error log: empty during this check.
+The workshop uses in-memory storage. Persistence acceptance uses the Node file
+store in tests, not an implied browser save feature.
+
+Build: reusable JavaScript/type declarations and Vite workshop pass.
+Known warnings: renderer bundle around 504 kB uncompressed; Rapier initialization
+deprecation warning. Neither is an asserted performance guarantee.
+
+Live Oracle7/MCP transport: NOT tested by this package run; Claude integration
+required. Provider tests use deterministic doubles and do not evaluate Oracle
+model quality. Full game vehicle/corpus tests are not part of this extraction.
+No game production changes were made by the engine work.

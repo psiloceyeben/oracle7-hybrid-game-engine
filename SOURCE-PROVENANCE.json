@@ -1,0 +1,69 @@
+{
+  "status": "selected source; publication audit pending",
+  "files": [
+    {
+      "path": "buildRecipe.ts",
+      "sha256": "ad1610ef8444556b7849bb6a0c1ca35ae683d32ec6e90fa73d0ca9c7d50f3112"
+    },
+    {
+      "path": "buildRecipeProjector.ts",
+      "sha256": "89e1c32d5c3805602067d04a9b4d2f5f8bf2f95de1ed8fbb55fc40fc86669b11"
+    },
+    {
+      "path": "catalogueMaterialPalette.ts",
+      "sha256": "767db0be2fbfbf45b4ffc5503263bb27b0f0551d323d1cdac56a1c5243b5b13c"
+    },
+    {
+      "path": "clayShaderPatch.ts",
+      "sha256": "fab935407cf9eea250ef5622a5cdf293e0be7a7cf314959d24155d14a6a39b51"
+    },
+    {
+      "path": "engine/contracts.ts",
+      "sha256": "f6405e7e25e8945e1250832eec7b44c9d8ce9846a1fe20b1949c4b5599ec0e5a"
+    },
+    {
+      "path": "engine/engineClock.ts",
+      "sha256": "eac8d631b028dacf77fff2447272c23d6191b7b435949d6deea79f69025d509d"
+    },
+    {
+      "path": "engine/index.ts",
+      "sha256": "c27a2771d625eabcfa4353c0cb94d1d94c319b12c40ab35f0a380b8af7328e36"
+    },
+    {
+      "path": "engine/operationalPhysicsCanary.ts",
+      "sha256": "47001c41900872ac48e12f2428e0d2849b9e81facaddb9c6e6283d02526f38a6"
+    },
+    {
+      "path": "engine/runtime.ts",
+      "sha256": "599b0c2a970410e4bde9cf09afd6f7435a721846b3e04894daeced2dd1f7f8be"
+    },
+    {
+      "path": "engine/stairPhysicsSurface.ts",
+      "sha256": "33adb277f572762a83d30928ef1de33ef3f795d3853d1385fb08a99f52a525c0"
+    },
+    {
+      "path": "engine/staticColliderDistance.ts",
+      "sha256": "8f5553751b5cbbe9fbbd04665d731f4bea01c2a7569d0b299e2835b0f9d40882"
+    },
+    {
+      "path": "materialCanvasColor.ts",
+      "sha256": "97d3f00c7c2ced95ca9076c313c39ce74555bbc639c817dfe6c072f22e68c954"
+    },
+    {
+      "path": "materialRegistry.ts",
+      "sha256": "ccb1e18e22e96b8e9d6bdcafa12dac1d67b5a7bf2c4ec3dd3a6a4c446aeadf48"
+    },
+    {
+      "path": "resolver/relational.ts",
+      "sha256": "30b25db1463f55a8f1f5f3f56971b4a799593390e600f4ef28fb4771f82e0aef"
+    },
+    {
+      "path": "resolver/substrate.ts",
+      "sha256": "4193329edc74a34797821fce0aaf28bca926e16c719641d1df5fe2771ffa6105"
+    },
+    {
+      "path": "textureToVector.ts",
+      "sha256": "6c0c6112c61a5e586897c2e2854ba73fdb4c5305f0f580a95a2caf036a355a25"
+    }
+  ]
+}

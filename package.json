@@ -1,0 +1,28 @@
+{
+  "name": "oracle7-hybrid-game-engine",
+  "version": "0.1.0-dev.1",
+  "description": "Oracle7 Hybrid Game Engine Dev Preview: composable recipes, rendering, runtime lifecycle and Rapier integration extracted from WanderAround.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": { ".": "./lib/index.js", "./node": "./lib/nodeFileStore.js" },
+  "scripts": {
+    "dev": "node node_modules/vite/bin/vite.js --host 127.0.0.1",
+    "build": "node node_modules/typescript/bin/tsc && node node_modules/vite/bin/vite.js build",
+    "check": "node node_modules/typescript/bin/tsc --noEmit",
+    "test": "node node_modules/vitest/vitest.mjs run --maxWorkers=1 --minWorkers=1"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "0.19.3",
+    "three": "0.168.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.43",
+    "@types/three": "0.168.0",
+    "typescript": "5.9.3",
+    "vite": "6.4.3",
+    "vitest": "1.6.1"
+  }
+}

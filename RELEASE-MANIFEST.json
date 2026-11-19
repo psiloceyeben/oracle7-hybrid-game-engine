@@ -1,0 +1,248 @@
+{
+  "release": "Oracle7 Hybrid Game Engine Dev Preview",
+  "version": "0.1.0-dev.1",
+  "datePacific": "2026-11-18",
+  "tests": 53,
+  "license": "MIT",
+  "noticesWithoutTopLevelLicenseFile": [
+    "@dimforge/rapier3d-compat",
+    "@esbuild/win32-x64",
+    "@rollup/rollup-win32-x64-gnu",
+    "@rollup/rollup-win32-x64-msvc",
+    "assertion-error",
+    "stackback",
+    "@esbuild/win32-x64",
+    "@esbuild/win32-x64"
+  ],
+  "excluded": [
+    "node_modules",
+    "private-baseline",
+    "work",
+    "game data",
+    "credentials",
+    "model weights",
+    "compiled outputs"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "ff4059a6c77a70dce16ef7968f88ee96d2133ee9776ffdb2423a1f6ac1aad244",
+      "bytes": 404
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "e315c164e6ddd80d135b9136e09037ef4ec0b659da26eb0b31d27e55f98e3aff",
+      "bytes": 108
+    },
+    {
+      "path": "ACCEPTANCE.txt",
+      "sha256": "bb8631fcbbd9e04356b4ca4f914a516f85cff99e6dff392c05f810c0c62cebfc",
+      "bytes": 1368
+    },
+    {
+      "path": "CLAUDE-UPLOAD.txt",
+      "sha256": "63d8d54183cba467b383f2144dfa87f5a1abd144b5b21fd8769dab56443bea7c",
+      "bytes": 2405
+    },
+    {
+      "path": "examples/workshop.ts",
+      "sha256": "499a9991f99cd166576a9f2bd5a960e8456196b50afbbbe6a0195f735cfbd98e",
+      "bytes": 4768
+    },
+    {
+      "path": "index.html",
+      "sha256": "5ae9f2b332c51d9e7b0a6dad1a6d4c50fabfbd1c93f5608ba4ebfce03b0503aa",
+      "bytes": 1366
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "682ed2e2176862e920925601505661c35abdd697d78251521f33765baf7bcd21",
+      "bytes": 1096
+    },
+    {
+      "path": "MCP-INTEGRATION.md",
+      "sha256": "3ea76d0179474d264805a9bacd98775f43ce73ade88b00f2ed1443cf702c3143",
+      "bytes": 5993
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "becf4d29d95551aad3a2e14b4a38803d1ed4222e03b92f6a69a63463fd248d21",
+      "bytes": 97004
+    },
+    {
+      "path": "package.json",
+      "sha256": "f6deed6b8be55fa41de95e7e73c0bc873f73454a2171eae86d402322ccda8f46",
+      "bytes": 1006
+    },
+    {
+      "path": "RAPIER-LICENSE.txt",
+      "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519",
+      "bytes": 11343
+    },
+    {
+      "path": "README.md",
+      "sha256": "f13b3c449c865983be3bb8bc00a087bc4cf0974622a42098ff38d98870825125",
+      "bytes": 3937
+    },
+    {
+      "path": "RELEASE-CHECKLIST.md",
+      "sha256": "3e329569e857608a9ae0cdf785ecfbd3cc70b2b394f1927ef8ceba80e07b9147",
+      "bytes": 1561
+    },
+    {
+      "path": "SOURCE-PROVENANCE.json",
+      "sha256": "c7382b0880078f828f1aa81359fe086e1d5b9e7cbf644f75046bf488a9d16c98",
+      "bytes": 2320
+    },
+    {
+      "path": "src/buildRecipe.ts",
+      "sha256": "8b5059df2aeb301e9add81ecd1c320553aa81810ecb97f3efc2cb95d96a0b5cd",
+      "bytes": 15694
+    },
+    {
+      "path": "src/buildRecipeProjector.ts",
+      "sha256": "559b009d9d52592492e538b3d2d79a9c655bf39ab89791226be503657bbe7ce7",
+      "bytes": 9424
+    },
+    {
+      "path": "src/catalogueMaterialPalette.ts",
+      "sha256": "767db0be2fbfbf45b4ffc5503263bb27b0f0551d323d1cdac56a1c5243b5b13c",
+      "bytes": 1144
+    },
+    {
+      "path": "src/clayShaderPatch.ts",
+      "sha256": "fab935407cf9eea250ef5622a5cdf293e0be7a7cf314959d24155d14a6a39b51",
+      "bytes": 9966
+    },
+    {
+      "path": "src/engine/contracts.ts",
+      "sha256": "f6405e7e25e8945e1250832eec7b44c9d8ce9846a1fe20b1949c4b5599ec0e5a",
+      "bytes": 11259
+    },
+    {
+      "path": "src/engine/engineClock.ts",
+      "sha256": "eac8d631b028dacf77fff2447272c23d6191b7b435949d6deea79f69025d509d",
+      "bytes": 5868
+    },
+    {
+      "path": "src/engine/index.ts",
+      "sha256": "c27a2771d625eabcfa4353c0cb94d1d94c319b12c40ab35f0a380b8af7328e36",
+      "bytes": 96
+    },
+    {
+      "path": "src/engine/operationalPhysicsCanary.ts",
+      "sha256": "353455b15c153e6d39e6fbaafd37969db94d3fb48625f27e9b270f790d2331e8",
+      "bytes": 32730
+    },
+    {
+      "path": "src/engine/runtime.ts",
+      "sha256": "599b0c2a970410e4bde9cf09afd6f7435a721846b3e04894daeced2dd1f7f8be",
+      "bytes": 11795
+    },
+    {
+      "path": "src/engine/stairPhysicsSurface.ts",
+      "sha256": "33adb277f572762a83d30928ef1de33ef3f795d3853d1385fb08a99f52a525c0",
+      "bytes": 547
+    },
+    {
+      "path": "src/engine/staticColliderDistance.ts",
+      "sha256": "8ba93babb510b1cf9a9e29132920e2f57dc198f07c27a6bbb23f0a9b34e05574",
+      "bytes": 1051
+    },
+    {
+      "path": "src/index.ts",
+      "sha256": "1f6b053ceedb3543e24a3dbd62acc9f10c7fbdcf5edaec46acb124fc5d4620f6",
+      "bytes": 364
+    },
+    {
+      "path": "src/materialCanvasColor.ts",
+      "sha256": "97d3f00c7c2ced95ca9076c313c39ce74555bbc639c817dfe6c072f22e68c954",
+      "bytes": 517
+    },
+    {
+      "path": "src/materialRegistry.ts",
+      "sha256": "d43fdef84da41015c1a246075a741b2146846d4a05fabdae38f7be3c93c677d0",
+      "bytes": 27110
+    },
+    {
+      "path": "src/naturalLanguage.ts",
+      "sha256": "d053ac8e4e9a7003636fa9e6a70cb76f6d8e9952f3cb7bd97b3674ac9a37f49e",
+      "bytes": 1777
+    },
+    {
+      "path": "src/nodeFileStore.ts",
+      "sha256": "5fdc18e02c6931318818543823d68c1fe0380d0d64f0c645525dc1f7619871d9",
+      "bytes": 2384
+    },
+    {
+      "path": "src/resolver/relational.ts",
+      "sha256": "c15b4c0216e3c633989dac0812d4f8620599999e8d97981c7cdb9bce2765b0be",
+      "bytes": 14319
+    },
+    {
+      "path": "src/resolver/substrate.ts",
+      "sha256": "4193329edc74a34797821fce0aaf28bca926e16c719641d1df5fe2771ffa6105",
+      "bytes": 6794
+    },
+    {
+      "path": "src/specialistRequests.ts",
+      "sha256": "7419269d5c8ae2737381de840b3dff1c27de9fb06884510a7381a1eded1ba6ce",
+      "bytes": 4616
+    },
+    {
+      "path": "src/textureToVector.ts",
+      "sha256": "c01ca08dde13df650f18113d18f6f0528ac67443c84470ff635b366acb9ac187",
+      "bytes": 6464
+    },
+    {
+      "path": "src/tools.ts",
+      "sha256": "241a9528c98b3d6ef60423ef3aa2dd64bb0e0968618532c1be7a5c8257c707dc",
+      "bytes": 2089
+    },
+    {
+      "path": "src/worldEdits.ts",
+      "sha256": "a9d2a8500bb380a9ff069de4a1e4f2b505f6cb9c95fdecaccc31549e39a02671",
+      "bytes": 13443
+    },
+    {
+      "path": "test/core.test.ts",
+      "sha256": "6ae1a9f12bd11e8dfdd607e64e04e65ad27bc0fe0fe0f3573046c76e553c3b9a",
+      "bytes": 1042
+    },
+    {
+      "path": "test/naturalLanguage.test.ts",
+      "sha256": "6d13c27bd3c119d571cfbdde63d5973577857910033c524c6ebe1ec49cd6b1df",
+      "bytes": 3509
+    },
+    {
+      "path": "test/operationalPhysicsCanary.test.ts",
+      "sha256": "7a9a5fe20a96ff1a8e760484e60e5d6a67b6f7401f14beba5924535b7a812fda",
+      "bytes": 10803
+    },
+    {
+      "path": "test/projector.test.ts",
+      "sha256": "e14a3dec73d3f6a7a9e937cee4fcad0c93d4592ab07566f5eafeccd38acb7783",
+      "bytes": 773
+    },
+    {
+      "path": "test/stairPhysicsSurface.test.ts",
+      "sha256": "7cef8d4917fb87c981cf0ef68e707d55c750f20152bd3472d09f56aaf5c2eb1c",
+      "bytes": 1057
+    },
+    {
+      "path": "test/worldEdits.test.ts",
+      "sha256": "ee4d3dcb1e8006c5ff50bc69975a8e5b8c4e9a0148e7b78147cf64b2d5271f5e",
+      "bytes": 7241
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "sha256": "8f358733b1ce4cd559b83091d4a649e79021f7e1bfbdee4d22c2cf2b29b62463",
+      "bytes": 707067
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "8e3e33a228a1c39f8f083395d1b203e401c61fcceb254b0a7ccc7868a0c4086b",
+      "bytes": 285
+    }
+  ]
+}

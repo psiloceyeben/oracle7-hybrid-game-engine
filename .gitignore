@@ -1,0 +1,11 @@
+node_modules/
+dist/
+lib/
+*.world.json
+*.world.json.lock
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+.DS_Store
