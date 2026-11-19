@@ -1,6 +1,6 @@
-# Oracle7 Hybrid Game Engine — Dev Preview
+# Oracle7 Hybrid Game Engine — Developer Preview
 
-A reusable MIT-licensed extraction of WanderAround's composable world foundations, with validated world editing and an AI-provider integration boundary.
+**Release v0.1.0** (Developer Preview). A reusable MIT-licensed extraction of WanderAround's composable world foundations, with validated world editing and an AI-provider integration boundary.
 
 ## Start
 
@@ -37,7 +37,7 @@ Build emits reusable JavaScript/types in `lib/` and the static workshop in `dist
 
 The intended flow is description → connected model/planner → declarative edits → validated preview → explicit confirmation → saved world. A connected AI may compose a new object from the supported parts rather than select a preset.
 
-The engine does **not** include Oracle weights or pretend that a model is connected. Claude supplies the MCP transport and Oracle7 12.0.3 provider. Existing game planning routes can be retained through the included specialist transport, but their game-specific action payloads must be translated using the corresponding existing planners—not guessed or treated as already-built recipes. See [MCP-INTEGRATION.md](MCP-INTEGRATION.md).
+The engine does **not** include Oracle weights or pretend that a model is connected. In this release no language provider ships: `world.describe` says it is not connected, and an agent composes recipe edits itself and previews them with `world.preview`. Nothing becomes part of a world without a validated preview and an explicit confirmation. Existing game planning routes can be retained through the included specialist transport, but their game-specific action payloads must be translated using the corresponding existing planners—not guessed or treated as already-built recipes. See [MCP-INTEGRATION.md](MCP-INTEGRATION.md).
 
 ## Preview limits
 
@@ -46,6 +46,40 @@ Validated geometry currently supports boxes, cylinders, spheres, cones and plane
 A rendered vehicle is not automatically drivable. A rendered room is not automatically navigable. A host must register colliders and attach supported gameplay controllers. This package is not the full WanderAround catalogue, multiplayer server, asset library, wallet system or production editor.
 
 Authorization is provided by the host callback. The local file adapter is for trusted development hosts, not distributed multi-server storage. Back up state; a leftover lock after a process crash requires operator review. Atomic rename does not guarantee recovery from every power-loss/filesystem failure. Preview drafts expire and do not survive restart; committed state, retained receipts and latest-edit undo do.
+
+## Optional: connect it to Oracle7 (MCP)
+
+Nothing below is needed for the quick start above, which runs entirely on your own machine.
+
+Oracle7 12.0.2 (huggingface.co/psiloceyeben/oracle7-slim, huggingface.co/psiloceyeben/oracle7) ships this engine as an optional
+satellite in `orbiters/hybrid-game-engine/`. Its MCP door gives an outside AI (Claude Code, Codex, Cursor) two kinds of tools at
+once: Oracle7's own chat, through the Oracle7 harness page, and this engine's world tools (`world_inspect`, `world_export`,
+`world_describe`, `world_preview`, `world_commit`, `world_undo`), wrapping `createWorldTools` with a host-bound principal and a
+private `NodeFileWorldStore`. The door is read-only unless the person at the computer allows changes, and every call is recorded.
+
+```sh
+# inside an Oracle7 12.0.2 install
+cd orbiters/hybrid-game-engine/engine && npm ci && npm run build && cd ../../..
+python oracle7.py --workbench 8190                                   # the Oracle7 harness page
+python orbiters/hybrid-game-engine/door_mcp.py --config claude       # the line to give Claude Code (or codex, cursor)
+python orbiters/hybrid-game-engine/door_mcp.py --mode change         # allow commit and undo (read is the default)
+```
+
+The live integration was run against Oracle7 12.0.2 through that door: 20 of 20 checks passed. See
+[INTEGRATION-RESULTS.md](INTEGRATION-RESULTS.md), including what was not tested.
+
+## Release
+
+Oracle7 Hybrid Game Engine — Developer Preview, v0.1.0 (MIT).
+
+$ORACLE7 Solana contract address (project identification):
+
+```
+DU7Lhe2QtcRBJdor7KbpjfUDmLyA2kdhR49Li3czpump
+```
+
+This address identifies the Oracle7 project. It is not needed to use the engine, the engine does not read or require it, and it
+is not an offer of, or a promise of, any financial return.
 
 ## License and release
 

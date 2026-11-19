@@ -1,6 +1,6 @@
 {
   "name": "oracle7-hybrid-game-engine",
-  "version": "0.1.0-dev.1",
+  "version": "0.1.0",
   "description": "Oracle7 Hybrid Game Engine Dev Preview: composable recipes, rendering, runtime lifecycle and Rapier integration extracted from WanderAround.",
   "type": "module",
   "license": "MIT",

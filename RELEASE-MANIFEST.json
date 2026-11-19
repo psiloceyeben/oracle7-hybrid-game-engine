@@ -1,6 +1,6 @@
 {
-  "release": "Oracle7 Hybrid Game Engine Dev Preview",
-  "version": "0.1.0-dev.1",
+  "release": "Oracle7 Hybrid Game Engine — Developer Preview",
+  "version": "0.1.0",
   "datePacific": "2026-11-18",
   "tests": 53,
   "license": "MIT",
@@ -51,8 +51,13 @@
     },
     {
       "path": "index.html",
-      "sha256": "5ae9f2b332c51d9e7b0a6dad1a6d4c50fabfbd1c93f5608ba4ebfce03b0503aa",
-      "bytes": 1366
+      "sha256": "b3a3bd3e63f7d65b3a417509aa4ff835d8322e6556f963ddfe1d2656f11c97e0",
+      "bytes": 1372
+    },
+    {
+      "path": "INTEGRATION-RESULTS.md",
+      "sha256": "f14b4d21477585307e0f1f8cb0617b9a0e83c7c206be93e3e73846a2172b6155",
+      "bytes": 4193
     },
     {
       "path": "LICENSE",
@@ -66,13 +71,13 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "becf4d29d95551aad3a2e14b4a38803d1ed4222e03b92f6a69a63463fd248d21",
-      "bytes": 97004
+      "sha256": "db7f9b50bfe89a57ca979384a31af4b0d1b271ad4e6ad6662aa52e5a127321ad",
+      "bytes": 96992
     },
     {
       "path": "package.json",
-      "sha256": "f6deed6b8be55fa41de95e7e73c0bc873f73454a2171eae86d402322ccda8f46",
-      "bytes": 1006
+      "sha256": "b284e645dee52b0a7db4938f452c903e8a56fca5f9a63e6b68dbef57c465bb36",
+      "bytes": 1000
     },
     {
       "path": "RAPIER-LICENSE.txt",
@@ -81,8 +86,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "f13b3c449c865983be3bb8bc00a087bc4cf0974622a42098ff38d98870825125",
-      "bytes": 3937
+      "sha256": "0f3f31e9bbee743dcfe6ecb95f4e14c560f53c42a233b015497268624438dd0b",
+      "bytes": 5970
     },
     {
       "path": "RELEASE-CHECKLIST.md",
@@ -244,5 +249,17 @@
       "sha256": "8e3e33a228a1c39f8f083395d1b203e401c61fcceb254b0a7ccc7868a0c4086b",
       "bytes": 285
     }
-  ]
+  ],
+  "liveIntegration": {
+    "oracle7": "12.0.2",
+    "door": "orbiters/hybrid-game-engine/door_mcp.py",
+    "passed": 20,
+    "of": 20,
+    "file": "INTEGRATION-RESULTS.md",
+    "dateUtc": "2026-11-19"
+  },
+  "projectIdentification": {
+    "$ORACLE7": "DU7Lhe2QtcRBJdor7KbpjfUDmLyA2kdhR49Li3czpump",
+    "note": "project identification only; not required by the engine; no financial return is offered or promised"
+  }
 }
